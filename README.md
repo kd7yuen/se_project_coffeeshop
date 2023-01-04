@@ -12,5 +12,9 @@ This is the second project of the Web Development program at Practicum. It was c
 - CSS animation and transform
 
 ## Plan on improving the project
+-Add more hover or interactive features to webpage
+-Connect the landing page of coffee shop to library webpage
+-One animation in the background but not overbearing on the section/page
+
 
 Add your ideas here :)
