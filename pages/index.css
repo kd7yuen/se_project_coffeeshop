@@ -1,4 +1,4 @@
-@import url("/vendor/normalize.css");
+@import url('../vendor/normalize.css');
 
 .page {
     margin: 0 auto;
@@ -14,7 +14,7 @@
     min-height: 720px;
     max-height: 800px;
     box-sizing: border-box;
-    background-image: url('/images/background_header.svg');
+    background-image: url('../images/background_header.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@
 
 .menu {
     background-color: #0a2750;
-    background-image: url('/images/background_menu.svg');
+    background-image: url('../images/background_menu.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -241,7 +241,7 @@
 
 .recipes {
     background-color: #FFFFFF;
-    background-image: url('/images/background_recipes.svg');
+    background-image: url('../images/background_recipes.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -309,7 +309,7 @@
 
 .reservation {
     background-color: #D9E7FF;
-    background-image: url('/images/background_reservation.svg');
+    background-image: url('../images/background_reservation.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,10 +355,8 @@
 .input__table {
     border-radius: 4px;
     margin: 0 0 32px 0;
-    /* max-width: 385px; */
     height: 60px;
     padding: 0 0 0 15px;
-    /* margin-top: 8px; */
     font-family: 'Inter', Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
