@@ -98,7 +98,7 @@
     bottom: 360px;
 }
 
-.header__footer__address {
+.header__address {
     margin: 0 80px 40px 80px;
     display: flex;
     justify-content: space-between;
