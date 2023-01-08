@@ -62,7 +62,7 @@
     justify-content: center;
 }
 
-.header__title__span-accent {
+.header__span-accent {
     color: #2F80ED;
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: italic;
@@ -71,7 +71,7 @@
     line-height: 72px;
 }
 
-.header__title__span {
+.header__span {
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Inter', Arial, sans-serif;
@@ -98,7 +98,7 @@
     bottom: 360px;
 }
 
-.header__footer {
+.header__footer__address {
     margin: 0 80px 40px 80px;
     display: flex;
     justify-content: space-between;
