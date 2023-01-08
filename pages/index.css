@@ -1,7 +1,6 @@
 @import url('../vendor/normalize.css');
 
 .page {
-    margin: 0 auto;
     min-width: 1100px;
     max-width: 1600px;
     font-size: 16px;
@@ -10,9 +9,10 @@
 }
 
 .header {
-    height: 100vh;
+    height: 100 vh;
     min-height: 720px;
     max-height: 800px;
+    position: relative;
     box-sizing: border-box;
     background-image: url('../images/background_header.svg');
     background-position: center;
@@ -25,7 +25,7 @@
     display: flex;
 }
 
-.logo {
+.header__logo {
     width: 125px;
     height: 142px;
     position: absolute;
@@ -50,6 +50,10 @@
     text-decoration: none;
 }
 
+.nav__link:hover {
+    color: #2F80ED;
+}
+
 .header__title {
     max-width: 729px;
     margin: 202px 0 28px 80px;
@@ -58,7 +62,7 @@
     justify-content: center;
 }
 
-.header__title-span-accent {
+.header__title__span-accent {
     color: #2F80ED;
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-style: italic;
@@ -67,7 +71,7 @@
     line-height: 72px;
 }
 
-.header__title-no-accent {
+.header__title__span {
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Inter', Arial, sans-serif;
@@ -85,16 +89,17 @@
 }
 
 .header__image {
+    margin: 0;
+    padding: 0;
     width: 646px;
     height: 568px;
-    position: absolute;
-    right: 5px;
-    bottom: 53.6px;
+    position: relative;
+    left: 868.2px;
+    bottom: 360px;
 }
 
 .header__footer {
     margin: 0 80px 40px 80px;
-    color: #6f6f6f;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -102,6 +107,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    color: #6f6f6f;
 }
 
 .header__paragraphs {
@@ -109,25 +115,20 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 161.6px;
+    bottom: 356.8px;
 }
-.header__paragraph-hours {
+.header__paragraph {
     margin: 0;
 }
-.header__paragraph-weekdays {
-    margin: 0;
-}
-.header__paragraph-weekends {
-    margin: 0;
-}
-.header__address {
-    margin: 0;
+
+.header__paragraph__address {
+    margin-top: 0;
     color: #6f6f6f;
     display: flex;
     align-items: flex-end;
     padding: 0;
     position: relative;
-    top: 161.6px;
+    bottom: 340.8px;
 }
 
 /* Menu block */
@@ -276,25 +277,26 @@
     column-gap: 40px;
 }
 
-.recipes__recipes__iframe-french {
+/* .recipes__recipes__iframe-french {
     margin-bottom: 24px;
-}
+} */
 
 .recipes__iframe {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 195px;
-}
-
-.recipes__iframe-video {
     width: 480px;
     height: 237px;
     border: none;
 }
 
+.recipes__iframes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 195px;
+}
+
 .recipes__video-caption {
     max-width: 480px;
     display: flex;
+    justify-content: space-between;
     font-family: 'Inter', 'Arial', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -306,6 +308,8 @@
     flex-grow: 1;
     border-bottom: 1px none;
 }
+
+/* reservation block */
 
 .reservation {
     background-color: #D9E7FF;
