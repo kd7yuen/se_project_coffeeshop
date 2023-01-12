@@ -20,7 +20,6 @@
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     padding: 30px 80px 40px 80px;
-    /* box-sizing: border-box; */
 }
 
 .nav {
@@ -38,8 +37,6 @@
 }
 
 .nav__links {
-    /* position: relative; */
-    /* left: 495.8px; */
     margin: 0 0 0 auto;
     list-style: none;
     display: flex;
@@ -278,10 +275,6 @@
     align-items: center;
     column-gap: 40px;
 }
-
-/* .recipes__recipes__iframe-french {
-    margin-bottom: 24px;
-} */
 
 .recipes__iframe {
     width: 480px;
