@@ -32,7 +32,7 @@
   border: none;
 }
 
-.form__label {
+.form__fieldset-label {
   margin-bottom: 8px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
@@ -40,7 +40,7 @@
   line-height: 20px;
 }
 
-.form__input {
+.form__fieldset-input {
   border-radius: 4px;
   margin: 0 0 32px 0;
   height: 60px;
@@ -51,7 +51,7 @@
   color: #838383;
 }
 
-.form__button {
+.form__fieldset-button {
   color: #ffffff;
   background-color: #2f80ed;
   margin-bottom: 32px;
@@ -65,7 +65,7 @@
   opacity: 1;
 }
 
-.table__input-button:hover {
+.form__fieldset-button:hover {
   transition: 1s linear;
   opacity: 0.7;
 }
