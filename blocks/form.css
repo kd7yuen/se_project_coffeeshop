@@ -26,7 +26,7 @@
   line-height: 30px;
 }
 
-.form__input[type="name"] {
+.form__input[type="text"] {
   margin-bottom: 32px;
 }
 

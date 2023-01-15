@@ -43,6 +43,12 @@
   flex-direction: column;
 }
 
+.recipes__frame {
+  width: 480px;
+  height: 273px;
+  border: none;
+}
+
 .recipes__video-caption {
   max-width: 480px;
   width: 100%;
