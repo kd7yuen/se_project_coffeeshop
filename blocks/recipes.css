@@ -39,12 +39,8 @@
 .recipes__iframe {
   display: flex;
   column-gap: 40px;
-}
-
-.iframe {
-  width: 480px;
-  height: 237px;
   border: none;
+  flex-direction: column;
 }
 
 .recipes__video-caption {
