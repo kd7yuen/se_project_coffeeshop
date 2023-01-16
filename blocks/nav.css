@@ -11,7 +11,6 @@
   display: flex;
   column-gap: 20px;
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -24,4 +23,5 @@
 
 .nav__link:hover {
   color: #2f80ed;
+  transition: color 1s linear;
 }
