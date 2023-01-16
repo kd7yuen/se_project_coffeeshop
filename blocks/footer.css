@@ -1,6 +1,6 @@
 .footer {
   box-sizing: border-box;
-  background: linear-gradient(180deg, #0a2850, 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   margin: 0;
   padding: 60px 100px 60px 80px;
   color: #ffffff;
@@ -59,6 +59,7 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
+  transition: color, 1s ease-in;
 }
 
 .footer__social-icon {

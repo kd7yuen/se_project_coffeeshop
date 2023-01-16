@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-color: #ffffff;
   padding: 30px 80px 40px 80px;
-  z-index: -2;
+  z-index: 1;
 }
 
 .header__title {
@@ -78,6 +78,5 @@
   align-items: flex-end;
   flex-direction: column;
   position: relative;
-  z-index: 1;
   margin: 0;
 }

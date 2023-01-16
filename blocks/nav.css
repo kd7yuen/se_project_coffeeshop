@@ -22,5 +22,6 @@
 }
 
 .nav__link:hover {
-  transition: #2f80ed, 2s ease-in;
+  color: #2f80ed;
+  transition: color, 2s ease-in;
 }
