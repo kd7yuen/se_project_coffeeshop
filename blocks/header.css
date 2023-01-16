@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-color: #ffffff;
   padding: 30px 80px 40px 80px;
+  z-index: -2;
 }
 
 .header__title {
@@ -47,7 +48,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__footer {
