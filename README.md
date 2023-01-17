@@ -15,6 +15,7 @@ This is the second project of the Web Development program at Practicum. It was c
 -Add more hover or interactive features to webpage
 -Connect the landing page of coffee shop to library webpage
 -One animation in the background but not overbearing on the section/page
+-Further develop the form page with pseudo-classes
 
 
 Add your ideas here :)
