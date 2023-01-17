@@ -1,3 +1,7 @@
+/* Page
+  Includes the set margins and total max width for all the sections. Add own margins or padding if you dont want this.
+*/
+
 .page {
   margin: 0 auto;
   min-width: 1100px;
