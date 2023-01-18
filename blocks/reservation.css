@@ -4,9 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-}
+} 
 
 .reservation__title {
   margin: 100px 0 80px 0;
@@ -17,7 +15,7 @@
   line-height: 52px;
 }
 
-.reservation__form form {
+.reservation__form {
   margin: 0 auto 120px auto;
   max-width: 385px;
 }
