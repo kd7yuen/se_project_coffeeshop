@@ -1,6 +1,8 @@
 .form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 0;
+  padding-bottom: 120px;
 }
 
 .form__fieldset {
@@ -16,6 +18,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  padding-bottom: 8px;
 }
 
 .form__input {
@@ -26,13 +29,11 @@
   width: 100%;
   height: 60px;
   border-radius: 4px;
-  margin-top: 8px;
+  margin: 0 0 32px 0;
   font-family: 'Inter', 'Arial', 'sans-serif';
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  margin: 0 0 32px 0;
-  padding: 0;
 }
 
 .form__input_type_datetime {
@@ -82,4 +83,5 @@
   margin-left: 12px;
   vertical-align: middle;
   font-weight: 400;
+  padding: 0;
 }
